@@ -1,0 +1,52 @@
+.section2{
+    margin-top: 100px;
+    .sec2_title{
+        display: flex;
+        align-items: center;
+        .sec2_item {
+            h2{
+                font-size: 50px;
+                width: 70%;
+            }
+            p{
+                width: 70%;
+                letter-spacing: 1px ;
+                line-height: 25px;
+                margin: 10px 0 10px 0px;
+            }
+            button{
+                padding: 10px 20px;
+                color:#2C9553;
+                border: 1px solid #2C9553;
+                border-radius: 50px;
+                transition: .65s;
+                background-color: white;
+            }
+            button:hover{
+                background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+                color: white;
+            }
+        }
+    }
+    .sec2_title1{
+        margin-top: 100px;
+        .sec2_item1 {
+            h2{
+                font-size: 50px;
+                width: 70%;
+            }
+            p{
+                width: 72%;
+                letter-spacing: 1px;
+                line-height: 25px;
+                margin: 10px 0 10px 0px;
+            }
+            .bi{
+                background-color: #64BB47;
+                color: white;
+                border-radius: 3px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

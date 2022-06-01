@@ -1,0 +1,31 @@
+@import url(./navbar/-navbar.css);
+@import url(./header_main/-main.css);
+@import url(./main/section/-section.css);
+@import url(./main/section1/-section1.css);
+@import url(./main/section2/-section2.css);
+@import url(./main/section3/-section3.css);
+@import url(./main/section4/-section4.css);
+@import url(./footer/section/-footer.css);
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    width: 100%;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root {
+    --color1--:#2C3847;
+    --color2--:#494949;
+    --color3--: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+}

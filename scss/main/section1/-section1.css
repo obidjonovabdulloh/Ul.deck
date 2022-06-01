@@ -1,0 +1,56 @@
+.section1 {
+  margin-top: 100px;
+}
+
+.section1 .sec1_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1 .sec1_title .sec1_item h2 {
+  font-size: 40px;
+}
+
+.section1 .sec1_title .sec1_item p {
+  width: 60%;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin: 10px 0 10px 0px;
+}
+
+.section1 .sec1_title .sec1_item button {
+  padding: 10px 20px;
+  color: #2C9553;
+  border: 1px solid #2C9553;
+  border-radius: 50px;
+  -webkit-transition: .65s;
+  transition: .65s;
+  background-color: white;
+}
+
+.section1 .sec1_title .sec1_item button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  color: white;
+}
+
+.section1 .sec1_title .sec1_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section1 .sec1_title .sec1_list .sec1_box img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.section1 .sec1_title .sec1_list .sec1_img img {
+  width: 250px;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=-section1.css.map */

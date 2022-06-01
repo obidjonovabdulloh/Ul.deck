@@ -1,0 +1,47 @@
+.main .main_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .main_title .main_item {
+  width: 600px;
+}
+
+.main .main_title .main_item h2 {
+  font-size: 60px;
+}
+
+.main .main_title .main_item h2 .span {
+  color: #2C9553;
+}
+
+.main .main_title .main_item p {
+  width: 70%;
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+}
+
+.main .main_title .main_item button {
+  padding: 10px 20px;
+  color: #2C9553;
+  border: 1px solid #2C9553;
+  border-radius: 50px;
+  -webkit-transition: .65s;
+  transition: .65s;
+  background-color: white;
+}
+
+.main .main_title .main_item button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#64BB47), to(#2C9553));
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  color: white;
+}
+
+.main .main_title .main_img {
+  width: 850px;
+}
+/*# sourceMappingURL=-main.css.map */

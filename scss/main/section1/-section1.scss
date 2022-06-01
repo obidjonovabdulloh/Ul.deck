@@ -1,0 +1,45 @@
+.section1 {
+    margin-top: 100px;
+    .sec1_title{
+        display: flex;
+        align-items: center;
+        .sec1_item {
+            h2{
+                font-size: 40px;
+            }
+            p {
+                width: 60%;
+                letter-spacing: 1px ;
+                line-height: 25px;
+                margin: 10px 0 10px 0px;
+            }
+            button{
+                padding: 10px 20px;
+                color:#2C9553;
+                border: 1px solid #2C9553;
+                border-radius: 50px;
+                transition: .65s;
+                background-color: white;
+            }
+            button:hover{
+                background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+                color: white;
+            }
+        }
+        .sec1_list {
+            display: flex;
+           .sec1_box{
+            img {
+                width: 250px;
+                margin-bottom: 20px;
+            }
+           }
+           .sec1_img {
+               img {
+                   width: 250px;
+                   margin-left: 20px;
+               }
+           }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.section {
+  margin-top: 100px;
+}
+
+.section .sec_title h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.section .sec_title p {
+  text-align: center;
+  color: #3B433E;
+}
+
+.section .sec_title .sec_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section .sec_title .sec_item .sec_box1 {
+  width: 250px;
+}
+
+.section .sec_title .sec_item .sec_box1 img {
+  width: 100px;
+}
+
+.section .sec_title .sec_item .sec_box {
+  width: 250px;
+}
+
+.section .sec_title .sec_item .sec_box img {
+  width: 100px;
+}
+
+.section .sec_title .sec_item .sec_box .sec_h3 {
+  margin-top: 25px;
+}
+/*# sourceMappingURL=-section.css.map */

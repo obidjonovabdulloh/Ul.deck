@@ -1,0 +1,35 @@
+.main {
+    .main_title{
+        display: flex;
+        align-items: center;
+        .main_item{
+            width: 600px;
+            h2{
+                font-size: 60px;
+                .span{
+                    color: #2C9553;
+                }
+            }
+            p{
+                width: 70%;
+                font-size: 16px;
+                margin: 10px 0px 10px 0px;
+            }
+            button{
+                padding: 10px 20px;
+                color:#2C9553;
+                border: 1px solid #2C9553;
+                border-radius: 50px;
+                transition: .65s;
+                background-color: white;
+            }
+            button:hover{
+                background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+                color: white;
+            }
+        }
+        .main_img {
+            width: 850px;
+        }
+    }
+}

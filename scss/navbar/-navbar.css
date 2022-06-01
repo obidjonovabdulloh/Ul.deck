@@ -1,0 +1,67 @@
+:root {
+  --color1--:#2C3847;
+  --color2--:#494949;
+  --color3--: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+}
+
+.navbar {
+  padding: 20px 0px 20px 0px;
+}
+
+.navbar .nav_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .nav_title .nav_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .nav_title .nav_item h1 {
+  font-size: 35px;
+}
+
+.navbar .nav_title .nav_item .nav_ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 80px;
+}
+
+.navbar .nav_title .nav_item .nav_ul a {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: var(--color1--);
+  font-weight: 500;
+}
+
+.navbar .nav_title .nav_list .bi {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.navbar .nav_title .nav_list .nav_btn {
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px 20px;
+  -webkit-transition: .65s;
+  transition: .65s;
+}
+
+.navbar .nav_title .nav_list .nav_btn:hover {
+  background-color: var(--color2--);
+  color: white;
+}
+/*# sourceMappingURL=-navbar.css.map */

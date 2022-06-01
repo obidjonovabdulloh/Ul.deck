@@ -1,0 +1,27 @@
+.section_foot{
+    margin-top: 150px;
+    .foot_title{
+        .pow{
+            .foot_list{
+                p{
+                    width: 60%;
+                    color: #657582;
+                }
+            }
+            .col{
+                h2{
+                    font-size: 25px;
+                }
+                a{
+                    color:  #657582;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+.foot{
+    margin-top: 50px;
+    padding: 20px 0 5px 0px;
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+}
